@@ -1,0 +1,7 @@
+mlflow==3.9.0
+sagemaker==2.252.0
+sagemaker-mlflow==0.2.0 #must have to interact with SageMaker MLflow correctly
+lightning==2.6.1
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.10.0+cpu
+torchvision==0.25.0+cpu
