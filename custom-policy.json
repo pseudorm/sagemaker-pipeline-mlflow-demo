@@ -1,0 +1,19 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "s3:Get*",
+                "s3:Put*",
+                "sagemaker:AddTags",
+                "sagemaker:CreateModelPackageGroup",
+                "sagemaker:CreateModelPackage",
+                "sagemaker:DescribeModelPackageGroup",
+                "sagemaker:UpdateModelPackage",
+                "s3:List*"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
